@@ -1,0 +1,85 @@
+/*******************************
+  Main stylesheet - all pages
+*******************************/
+
+html, body {
+font-family: "Open Sans" , sans-serif ;
+}
+
+/* Style the header element */
+header {
+  background-image: url(../images/headergarde.webp);
+}
+
+body{
+  margin: 0em;
+}
+
+/*******************************
+  Navigation
+*******************************/
+/*******************************
+    Navigation Styles
+*******************************/
+
+/*******************************
+    Navigation Styles
+*******************************/
+
+/* Style the navigation bar */
+nav {
+  padding: 1em 0;
+  
+}
+
+/* Style the unordered list */
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+/* Style the list items */
+nav ul li {
+  display: inline;
+  margin-right: 1em; /* Add right margin for spacing */
+}
+
+/* Style the anchor links */
+nav ul li a {
+  text-decoration: none;
+  color: #fff; /* Set text color to white */
+  font-weight: bold; /* Make text bold */
+  padding: 0.5em 1em; /* Add padding to the links */
+  border-radius: 5px; /* Add rounded corners */
+  background-color: wheat; /* Set a darker blue background color */
+  transition: background-color 0.3s ease; /* Add a smooth hover effect */
+}
+
+/* Style the anchor links on hover */
+nav ul li a:hover {
+  background-color: #0073e6; /* Change background color on hover */
+}
+
+
+/*******************************
+  Links
+*******************************/
+a:link {
+    color: black;
+}
+a:visited {
+    color: deeppink;
+}
+
+
+/*******************************
+  Headings
+*******************************/
+h1, h2 {
+  color: deeppink;
+}
+
+h3, h4 {
+  color: hotpink;
+}

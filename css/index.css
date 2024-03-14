@@ -1,0 +1,102 @@
+/*********************
+    Homepage stylesheet
+**********************/
+
+
+/* Center content container */
+main {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 80%;
+  max-width: 800px;
+  margin: 4em auto;
+  padding: 2em 2em 2em 2em;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2em;
+  /* other styles for your image */
+}
+
+
+img {
+  border-radius: 2em;
+}
+
+/* Style the main heading */
+h1 {
+  color: #0073e6;
+  font-size: 2em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+/* Style section headings */
+h2 {
+  color: #333;
+  /* Adjust heading color as needed */
+  font-size: 1.5em;
+  margin-top: 1em;
+}
+
+/* Style the text content */
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 1.2em;
+}
+
+/* Style ordered and unordered lists */
+ul,
+ol {
+  margin-left: 2em;
+}
+
+/* Style list items */
+li {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 0.5em;
+}
+
+/* Style links */
+a {
+  color: #0073e6;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+ #bold {
+  font-size: 2em;
+ }
+
+/* Footer styling */
+footer {
+  background-color: wheat;
+  text-align: center;
+  margin-top: 2em;
+  padding: 1em;
+  border-radius: 10px;
+  width: 100%;
+  height: 20%;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  main {
+    width: 90%;
+  }
+}
+
+#bold {
+  font-weight: bold;
+}

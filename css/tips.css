@@ -1,0 +1,106 @@
+/*******************************
+    Gardening Tips page
+*******************************/
+
+#tipsBkgd {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2em;
+  border-radius: 10px; 
+}
+
+#tipsBkgd div {
+  background-color: #fff;
+  opacity: .8;
+  width: 60%;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+article {
+  padding: 1em;
+}
+
+
+body {
+  background-image: url(../images/ivyplant.jpeg);
+  background-position: center; /* Center the background image */
+  background-size: 25em;
+}
+
+
+
+/*********************
+    Homepage stylesheet
+**********************/
+  
+  /* Center content container */
+  main {
+    background-color: white;
+    max-width: 800px;
+    margin: 1em;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style the main heading */
+  h1 {
+    color: #0073e6;
+    font-size: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  
+  /* Style section headings */
+  h2 {
+    color: #333; /* Adjust heading color as needed */
+    font-size: 1.5em;
+    margin-top: 1em;
+  }
+  
+  /* Style the text content */
+  p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 1em;
+  }
+  
+  /* Style ordered and unordered lists */
+  ul, ol {
+  margin: 2em;
+  }
+  
+  /* Style list items */
+  li {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 1em;
+  }
+  
+  /* Style links */
+  a {
+    color: #0073e6;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: wheat;
+    text-align: center;
+    margin-top: 2em;
+    padding: 1em;
+    border-radius: 10px; 
+  }
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    main {
+      width: 100%;
+    }
+  }
+  
